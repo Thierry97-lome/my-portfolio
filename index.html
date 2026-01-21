@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thierry Ogoubi's Portfolio</title>
+  <style>
+    :root{--accent:#2563eb;--muted:#6b7280;--bg:#f8fafc}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a}
+    header{background:#fff;border-bottom:1px solid #e6edf3;position:sticky;top:0;z-index:10}
+    .container{max-width:1000px;margin:0 auto;padding:1rem}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .nav a{color:var(--muted);text-decoration:none;margin-left:1rem}
+    .hero{padding:4rem 0;text-align:center}
+    .hero h2{font-size:2rem;margin:0 0 .5rem}
+    .hero p{color:var(--muted);margin:0 0 1rem}
+    .sections{display:grid;grid-template-columns:1fr;gap:1.5rem;padding:2rem 0}
+    .card{background:#fff;padding:1.25rem;border-radius:8px;border:1px solid #eef5fb}
+    .skills{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+    .skill{background:#eef6ff;color:var(--accent);padding:.4rem .6rem;border-radius:999px;font-size:.9rem}
+    footer{padding:1rem 0;color:var(--muted);text-align:center;font-size:.9rem}
+    @media(min-width:800px){.sections{grid-template-columns:1fr 1fr}.hero h2{font-size:2.6rem}}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div style="display:flex;align-items:center;gap:.75rem">
+        <h1 style="margin:0;font-size:1.1rem">Thierry Ogoubi's Portfolio</h1>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <h2>Welcome — glad you're here</h2>
+      <p>I'm Thierry Ogoubi, a data-savvy problem solver focused on turning data into impact. Explore my work and skills below.</p>
+    </section>
+
+    <div class="sections">
+      <section id="about" class="card">
+        <h3>About Me</h3>
+        <p style="color:var(--muted)">I am an experienced Delivery Driver offering delivery experience and solid dedication to customer satisfaction. Strive to enhance vehicle longevity and workplace safety with good inspection and maintenance abilities. Apply advanced French skills to enhance service for customers and collaborate effectively with diverse team members. Customer-oriented transportation team member with proven safety skills and impeccable driving history. Log daily activities, coordinate customer documentation and collect payments to meet recordkeeping requirements. Skillfully plan efficient daily routes to meet customer needs and maximize delivery schedules. Hardworking employee enthusiastic about learning any field inside and out. Pursues opportunities to learn new skills and contribute to group success. Offers strong administrative, relationship-building, and problem-solving abilities. Safety-conscious and proactive in inspecting and maintaining vehicles. Experienced Food Service Worker knowledgeable about batch cooking, food safety and nutrition. Strong track record of reliability, accuracy and efficiency in all tasks. Maintains superior performance in both individual and team-focused duties. Encouraging manager and analytical problem-solver with talents for team building, leading and motivating, as well as excellent customer relations aptitude and relationship-building skills. Proficient in using independent decision-making skills and sound judgment to positively impact company success. Dedicated to applying training, monitoring and morale-building abilities to enhance employee engagement and boost performance.</p>
+      </section>
+
+      <section id="skills" class="card">
+        <h3>Skills</h3>
+        <div class="skills">
+          <span class="skill">Communication and Interpersonal Skills</span>
+          <span class="skill">Technical Skills: Proficient in Microsoft Project, Excel, Telemedicine Platforms, Epic Systems, Vital Signs Monitoring devices, Incident Reporting Systems, Data Analytics Platforms, Workforce Management Systems</span>
+          <span class="skill">Professional Skills: CRM systems, Financial Management, Market Research, Project Management, Crisis Intervention, Problem Solving</span>
+          <span class="skill">Soft Skills: Communication, Presentation, Negotiation, Time Management</span>
+          <span class="skill">Efficiency and Time Management</span>
+          <span class="skill">Valid Driver's License</span>
+          <span class="skill">Problem Solving</span>
+          <span class="skill">Dependability and Honesty</span>
+          <span class="skill">Stocking and Replenishing</span>
+          <span class="skill">Multitasking</span>
+        </div>
+      </section>
+
+      <section id="work" class="card">
+        <h3>Work Experience</h3>
+        <p style="color:var(--muted)"><strong>07/2020 to Current<br>Delivery Driver<br>Amazon – Newark, NJ</strong><br>Completed on-time deliveries by choosing best and most efficient routes. Delivered packages to customer doorsteps and business offices. Kept detailed records of completed or in-progress deliveries using hand-held devices and camera images. Fostered positive working relationships with regular customers.</p>
+        <p style="color:var(--muted)"><strong>12/2017 to 06/2021<br>Ikea Food Services Co-worker<br>IKEA – Elizabeth, NJ</strong><br>Compiled recipe ingredients and prepared for cooks by washing, cutting or measuring food items. Made food according to standard recipes with requested changes for customer satisfaction. Scanned shelves and product cases for expired stock and discarded outdated or spoiled items. Plated hot meals and salads in aesthetically pleasing arrangements.</p>
+        <p style="color:var(--muted)"><strong>06/2017 to 10/2017<br>Food Service Team Member<br>Wendy's – Elizabeth, NJ</strong><br>Received orders from customers and input into order management system. Prepared food orders to support waitstaff and other team members. Made food according to standard recipes with requested changes for customer satisfaction. Compiled recipe ingredients and prepared for cooks by washing, cutting or measuring food items.</p>
+      </section>
+
+      <section id="education" class="card">
+        <h3>Education</h3>
+        <p style="color:var(--muted)"><strong>Expected in 06/2023<br>Bachelor of Science: Construction Management<br>New Jersey Institute of Technology - Newark, NJ</strong></p>
+        <p style="color:var(--muted)"><strong>06/2018<br>Associate of Science: Engineering (Pre-Engineering)<br>Union County College - Cranford, NJ</strong></p>
+        <p style="color:var(--muted)"><strong>06/2016<br>High School Diploma<br>Hillside High School - Hillside, NJ</strong></p>
+      </section>
+    </div>
+
+    <section id="contact" class="card" style="margin-top:1rem">
+      <h3>Contact</h3>
+      <p style="color:var(--muted)">Address: Hillside, NJ 07205<br>Phone: (908) 451-5416<br>Email: thierry.ogoubi@yahoo.com | LinkedIn: linkedin.com/in/thier | GitHub: github.com/thier</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Thierry Ogoubi — Built with a simple HTML template.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
