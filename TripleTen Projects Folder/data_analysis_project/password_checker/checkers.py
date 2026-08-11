@@ -16,4 +16,5 @@ password = input("Enter a password to check: ")
 strength = check_password(password)
 
 levels = ["Very Weak", "Weak", "Medium", "Strong", "Very Strong"]
-print("Password Strength:", levels[strength])
+print("Password Strength:", levels[strength])4565
+
