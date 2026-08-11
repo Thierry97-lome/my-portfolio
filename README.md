@@ -1,5 +1,7 @@
 # 📊 Thierry Ogoubi — Data Analytics Portfolio
 
+---
+
 Welcome to my portfolio!  
 This repository contains projects I’ve completed as part of the **TripleTen Data Analytics Program**, showcasing my skills in Python, SQL, and machine learning.  
 Each project demonstrates how I apply data‑driven insights to solve real‑world business problems.
@@ -8,15 +10,15 @@ Each project demonstrates how I apply data‑driven insights to solve real‑wor
 
 ## 🧠 Featured Projects
 
-### 🎬 Netflix EDA Project
+### 🎬 [Netflix EDA Project](./netflix_eda.ipynb)
 Exploratory Data Analysis of Netflix titles using **Pandas**, **Matplotlib**, and **Seaborn**.  
 Uncovered content trends by genre, release year, and country to inform strategic recommendations.
 
-### 📱 Megaline Plan Recommendation (Sprint 7)
+### 📱 [Megaline Recommendation](./megaline_recommendation.ipynb)
 Built a **classification model** to recommend one of Megaline’s two mobile plans — Smart or Ultra — based on subscriber usage.  
 Evaluated **Decision Tree**, **Random Forest**, and **Logistic Regression** models; Random Forest achieved the best accuracy and stability.
 
-### 💼 Machine Learning in Business (OilyGiant)
+### 💼 [Oil Well Prediction](./oil_well_prediction.ipynb)
 Developed a predictive model to optimize oil‑well selection and maximize profit.  
 Applied **regression analysis** and **bootstrapping** to identify wells with the highest potential yield.
 
