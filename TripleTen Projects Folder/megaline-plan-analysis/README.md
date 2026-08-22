@@ -25,8 +25,14 @@ Five tables describing user behavior over time:
 ## 🛠 Tools & Technologies
 Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy (statistical testing)
 
-## 📈 Key Takeaways
-The analysis compares revenue distributions between the two plans and uses hypothesis testing to determine whether observed differences are statistically significant — providing a data-driven recommendation for where to focus marketing spend.
+## 📈 Key Findings
+- Ultimate plan users have higher average call duration, message counts, and internet usage than Surf users
+- Average revenue **per user** is higher for Ultimate plan users than Surf plan users
+- However, **total revenue** collected from Surf users is higher overall, since there are more Surf subscribers
+- A two-sample t-test confirmed the difference in mean revenue between Surf and Ultimate is statistically significant (p ≈ 3.17e-15, well below α = 0.05)
+- A separate t-test found no statistically significant difference in mean revenue between users in the NY-NJ area and users elsewhere (p ≈ 0.07)
+
+**Business takeaway:** Ultimate plan subscribers are more valuable per user, but Surf drives more revenue in aggregate due to its larger user base — a useful distinction for deciding where to focus retention vs. acquisition efforts.
 
 ---
 *This project was completed as part of the TripleTen Data Analytics bootcamp.*
